@@ -77,7 +77,7 @@ li {
 }
 
 header {
-    height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
 }
 
 .header__container {
@@ -156,7 +156,7 @@ padding: 56px 0;
     position: absolute;
     width: 101vw;
     height: 12vw;
-    top: 1px;
+    top: 0;
     left: 0;
     z-index: -1;
     background-size: cover;
@@ -181,8 +181,7 @@ padding: 56px 0;
 
 .highlight__wrapper {
     display: flex;
-    
-
+    justify-content: center;
 }
 
 .highlight {
