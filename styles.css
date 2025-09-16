@@ -225,6 +225,8 @@ padding: 56px 0;
 
 .books {
     display: flex;
+    flex-wrap: wrap;
+
 }
 
 .book {
@@ -270,3 +272,6 @@ padding: 56px 0;
     padding-right: 6px;
     color: #bfbfbf;
 }
+
+
+
